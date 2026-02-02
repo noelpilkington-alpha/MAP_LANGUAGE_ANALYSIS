@@ -9,7 +9,7 @@
 <body>
     <header class="header">
         <h1>Appendix E: Enrollment Impact Analysis</h1>
-        <p>How Writing, Vocabulary, eGumpp, and MobyMax Correlate with MAP Performance</p>
+        <p>MobyMax Effectiveness & Writing XP Correlation (Non-HS Students)</p>
     </header>
 
     <nav class="nav">
@@ -21,102 +21,86 @@
             <li><a href="appendix-c.html">W-to-W Drop</a></li>
             <li><a href="appendix-d.html">Campus Analysis</a></li>
             <li><a href="appendix-e.html" class="active">Enrollment Impact</a></li>
+            <li><a href="deep-dive.html">Deep Dive</a></li>
+            <li><a href="hs-analysis.html">HS Analysis</a></li>
         </ul>
     </nav>
 
     <main class="container">
-        <div class="section-card">
-            <h2>Data Overview</h2>
-            <p>Analysis of 268 matched students from Progress Tracker and MAP results.</p>
+        <div class="section-card" style="background: #e3f2fd; border-left: 4px solid #1976d2;">
+            <h2>Methodology Note</h2>
+            <p><strong>All analyses on this page exclude High School (HS) students</strong> to eliminate grade-level inflation. This provides a more accurate picture of program effectiveness for MS, L2, L1, and LL students (n=221).</p>
+        </div>
+
+        <!-- MobyMax Effectiveness -->
+        <div class="section-card" style="border: 2px solid #4caf50;">
+            <h2>MobyMax Effectiveness Analysis</h2>
+
             <div class="metrics-grid">
-                <div class="metric-card">
-                    <div class="value">178</div>
-                    <div class="label">Writing Enrolled</div>
+                <div class="metric-card positive">
+                    <div class="value">3.14x</div>
+                    <div class="label">MobyMax Only Avg Growth</div>
+                </div>
+                <div class="metric-card positive">
+                    <div class="value">67%</div>
+                    <div class="label">MobyMax at 2x+ Target</div>
                 </div>
                 <div class="metric-card">
-                    <div class="value">244</div>
-                    <div class="label">Vocabulary Enrolled</div>
-                </div>
-                <div class="metric-card">
-                    <div class="value">60</div>
-                    <div class="label">eGumpp Users</div>
-                </div>
-                <div class="metric-card">
-                    <div class="value">116</div>
-                    <div class="label">MobyMax Users</div>
+                    <div class="value">105</div>
+                    <div class="label">MobyMax Only Students</div>
                 </div>
             </div>
-        </div>
 
-        <div class="section-card">
-            <h2>Important Context</h2>
-            <div style="background: #fff3cd; padding: 1rem; border-radius: 5px; margin-bottom: 1rem;">
-                <strong>Selection Bias Note:</strong> Students are only enrolled in eGumpp after mastering Grade 6 Language in MobyMax. This means eGumpp students are pre-selected for higher performance. Direct comparisons between eGumpp and MobyMax should not be interpreted as platform effectiveness comparisons.
-            </div>
-        </div>
-
-        <div class="section-card">
-            <h2>Individual Program Impact</h2>
+            <h3>Platform Comparison (Non-HS)</h3>
             <table>
                 <thead>
                     <tr>
-                        <th>Program</th>
-                        <th>Enrolled (n)</th>
-                        <th>Enrolled Avg X</th>
-                        <th>Enrolled % 2x+</th>
-                        <th>Not Enrolled (n)</th>
-                        <th>Not Enrolled Avg X</th>
-                        <th>Difference</th>
+                        <th>Platform</th>
+                        <th>Students (n)</th>
+                        <th>Avg Growth X</th>
+                        <th>% Achieving 2x+</th>
+                        <th>% Below Expected</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>Writing (AlphaWrite)</td>
-                        <td>178</td>
-                        <td class="tier-high">4.17x</td>
-                        <td>71%</td>
-                        <td>92</td>
-                        <td>2.52x</td>
-                        <td class="tier-high">+1.65x</td>
+                    <tr style="background: #e8f5e9;">
+                        <td><strong>MobyMax Only</strong></td>
+                        <td>105</td>
+                        <td class="tier-high">3.14x</td>
+                        <td>67%</td>
+                        <td>43%</td>
                     </tr>
                     <tr>
-                        <td>Vocabulary</td>
-                        <td>244</td>
-                        <td class="tier-high">3.77x</td>
-                        <td>70%</td>
-                        <td>26</td>
-                        <td>2.09x</td>
-                        <td class="tier-high">+1.68x</td>
+                        <td>eGumpp</td>
+                        <td>30</td>
+                        <td class="tier-high">5.26x</td>
+                        <td>77%</td>
+                        <td>43%</td>
                     </tr>
-                    <tr>
-                        <td>eGumpp*</td>
-                        <td>60</td>
-                        <td class="tier-high">5.76x</td>
-                        <td>78%</td>
-                        <td>210</td>
-                        <td>3.00x</td>
-                        <td class="tier-high">+2.76x</td>
-                    </tr>
-                    <tr>
-                        <td>MobyMax*</td>
-                        <td>116</td>
-                        <td>3.43x</td>
-                        <td>69%</td>
-                        <td>154</td>
-                        <td>3.75x</td>
-                        <td>-0.32x</td>
+                    <tr style="background: #f5f5f5;">
+                        <td>Overall Non-HS</td>
+                        <td>221</td>
+                        <td>3.36x</td>
+                        <td>66%</td>
+                        <td>44%</td>
                     </tr>
                 </tbody>
             </table>
-            <p style="margin-top: 1rem; color: #666; font-size: 0.9rem;">* eGumpp and MobyMax comparisons are affected by selection bias (see note above)</p>
-        </div>
 
-        <div class="section-card">
-            <h2>Combination Analysis</h2>
+            <div style="background: #e8f5e9; padding: 1rem; border-radius: 5px; margin-top: 1rem;">
+                <h3 style="color: #2e7d32; margin-top: 0;">Conclusion: MobyMax IS Effective</h3>
+                <ul style="margin-bottom: 0;">
+                    <li>MobyMax-only students achieve <strong>3.14x average growth</strong>, exceeding the 2x target</li>
+                    <li><strong>67% of MobyMax-only students reach the 2x goal</strong></li>
+                    <li>MobyMax performs at -0.21x vs overall average (essentially equivalent)</li>
+                </ul>
+            </div>
+
+            <h3>MobyMax Only by Level</h3>
             <table>
                 <thead>
                     <tr>
-                        <th>Combination</th>
+                        <th>Level</th>
                         <th>Students (n)</th>
                         <th>Avg Growth X</th>
                         <th>% Achieving 2x+</th>
@@ -124,79 +108,254 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>eGumpp + Vocab + Writing</td>
-                        <td>40</td>
-                        <td class="tier-high">6.47x</td>
-                        <td>82%</td>
+                        <td>MS</td>
+                        <td>43</td>
+                        <td>2.91x</td>
+                        <td>56%</td>
                     </tr>
                     <tr>
-                        <td>eGumpp + Writing</td>
-                        <td>42</td>
-                        <td class="tier-high">6.40x</td>
-                        <td>83%</td>
+                        <td>L2</td>
+                        <td>51</td>
+                        <td>3.37x</td>
+                        <td>75%</td>
                     </tr>
                     <tr>
-                        <td>eGumpp + Vocab</td>
-                        <td>53</td>
-                        <td class="tier-high">6.05x</td>
-                        <td>79%</td>
-                    </tr>
-                    <tr>
-                        <td>Vocab + Writing</td>
-                        <td>174</td>
-                        <td class="tier-high">4.18x</td>
-                        <td>71%</td>
-                    </tr>
-                    <tr>
-                        <td>MobyMax + Vocab + Writing</td>
-                        <td>83</td>
-                        <td>3.65x</td>
-                        <td>71%</td>
-                    </tr>
-                    <tr>
-                        <td>MobyMax + Writing</td>
-                        <td>84</td>
-                        <td>3.62x</td>
-                        <td>70%</td>
-                    </tr>
-                    <tr>
-                        <td>MobyMax + Vocab</td>
-                        <td>112</td>
-                        <td>3.47x</td>
-                        <td>70%</td>
+                        <td>L1</td>
+                        <td>11</td>
+                        <td>3.00x</td>
+                        <td>73%</td>
                     </tr>
                 </tbody>
             </table>
         </div>
 
-        <div class="section-card">
-            <h2>Key Findings</h2>
-            <ul class="findings">
-                <li><strong>Vocabulary:</strong> Clear positive association (+1.68x) with nearly all tested students enrolled</li>
-                <li><strong>Writing:</strong> Clear positive association (+1.65x) for the 66% of students enrolled</li>
-                <li><strong>Vocab + Writing:</strong> This combination shows consistent benefits regardless of Language platform</li>
-                <li><strong>eGumpp Students:</strong> Show highest average growth (5.76x), but these are students who have already demonstrated mastery through MobyMax</li>
-                <li><strong>MobyMax Students:</strong> Slightly lower averages reflect the broader student population including those still building foundational skills</li>
-            </ul>
+        <!-- Selection Bias Note -->
+        <div class="section-card" style="background: #fff3cd; border-left: 4px solid #ff9800;">
+            <h2>Important: Selection Bias Note</h2>
+            <p>Students are only enrolled in <strong>eGumpp after mastering Grade 6 Language in MobyMax</strong>. This means eGumpp students are pre-selected for higher performance. Direct comparisons between eGumpp and MobyMax should <strong>not</strong> be interpreted as platform effectiveness comparisons.</p>
+            <p>The higher eGumpp average (5.26x) reflects student selection, not platform superiority.</p>
         </div>
 
+        <!-- Writing XP Correlation -->
         <div class="section-card">
-            <h2>Interpretation Guidance</h2>
-            <ul class="findings">
-                <li><strong>Do NOT conclude:</strong> "eGumpp is better than MobyMax" - the data doesn't support this due to selection bias</li>
-                <li><strong>DO conclude:</strong> Writing and Vocabulary enrollment show clear positive associations with MAP growth</li>
-                <li><strong>DO conclude:</strong> Students who reach eGumpp (after mastering G6 MobyMax) continue to show strong growth</li>
-                <li><strong>DO conclude:</strong> The combination of Vocab + Writing benefits students regardless of their Language platform</li>
-            </ul>
+            <h2>Writing XP Goal Correlation</h2>
+
+            <h3>XP Goal Status vs MAP Growth (Non-HS)</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Status</th>
+                        <th>Students (n)</th>
+                        <th>Avg Growth X</th>
+                        <th>% Achieving 2x+</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="background: #e8f5e9;">
+                        <td><strong>Meeting XP Goals</strong></td>
+                        <td>50</td>
+                        <td class="tier-high">4.03x</td>
+                        <td>66%</td>
+                    </tr>
+                    <tr>
+                        <td>Not Meeting XP Goals</td>
+                        <td>106</td>
+                        <td>3.50x</td>
+                        <td>70%</td>
+                    </tr>
+                    <tr>
+                        <td>No Writing XP Data</td>
+                        <td>94</td>
+                        <td>2.84x</td>
+                        <td>63%</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p style="font-size: 1.1rem; margin-top: 1rem;"><strong>Difference (Meeting - Not Meeting): +0.53x</strong></p>
+
+            <h3>By Level</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Level</th>
+                        <th>Meeting n</th>
+                        <th>Meeting X</th>
+                        <th>Not Meeting n</th>
+                        <th>Not Meeting X</th>
+                        <th>Difference</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>MS</td>
+                        <td>36</td>
+                        <td>3.92x</td>
+                        <td>47</td>
+                        <td>3.34x</td>
+                        <td class="tier-high">+0.58x</td>
+                    </tr>
+                    <tr>
+                        <td>L2</td>
+                        <td>13</td>
+                        <td>4.19x</td>
+                        <td>53</td>
+                        <td>3.64x</td>
+                        <td class="tier-high">+0.55x</td>
+                    </tr>
+                    <tr>
+                        <td>L1</td>
+                        <td>1</td>
+                        <td>6.00x</td>
+                        <td>6</td>
+                        <td>3.46x</td>
+                        <td class="tier-high">+2.54x</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div style="background: #e3f2fd; padding: 1rem; border-radius: 5px; margin-top: 1rem;">
+                <h3 style="color: #1565c0; margin-top: 0;">Conclusion: Writing XP Goals Correlate with Growth</h3>
+                <p style="margin-bottom: 0;">Students meeting Writing XP goals show <strong>+0.53x higher MAP growth</strong> on average. This correlation holds across all non-HS levels.</p>
+            </div>
         </div>
 
+        <!-- eGumpp vs MobyMax Direct Comparison -->
+        <div class="section-card" style="border: 2px solid #2196f3;">
+            <h2>eGumpp vs MobyMax: Direct Comparison (Non-HS)</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Metric</th>
+                        <th>eGumpp Students</th>
+                        <th>MobyMax Only</th>
+                        <th>Difference</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Students (n)</strong></td>
+                        <td>30</td>
+                        <td>105</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Avg Growth X</strong></td>
+                        <td class="tier-high">5.26x</td>
+                        <td>3.14x</td>
+                        <td style="color: #1565c0;">+2.12x</td>
+                    </tr>
+                    <tr>
+                        <td><strong>% Achieving 2x+</strong></td>
+                        <td>77%</td>
+                        <td>67%</td>
+                        <td style="color: #1565c0;">+10%</td>
+                    </tr>
+                    <tr>
+                        <td><strong>% Below Expected</strong></td>
+                        <td>43%</td>
+                        <td>43%</td>
+                        <td>0%</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div style="background: #fff3e0; padding: 1rem; border-radius: 5px; margin-top: 1rem;">
+                <h3 style="color: #e65100; margin-top: 0;">Critical Context: Selection Bias</h3>
+                <p style="margin-bottom: 0;"><strong>eGumpp students are NOT randomly assigned.</strong> They are enrolled only after mastering Grade 6 Language in MobyMax. This means eGumpp students represent higher-performing students who have already demonstrated proficiency. The +2.12x difference reflects <strong>student selection</strong>, not platform effectiveness. Both groups have identical "below expected" rates (43%), suggesting similar instructional quality once adjusted for starting point.</p>
+            </div>
+        </div>
+
+        <!-- Enrollment Combinations -->
         <div class="section-card">
-            <h2>Recommended Actions</h2>
+            <h2>Enrollment Combinations Effectiveness (Non-HS)</h2>
+            <p style="color: #666; margin-bottom: 1rem;">Ranked by average Growth X, showing which enrollment combinations correlate with highest MAP results.</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Combination</th>
+                        <th>Students (n)</th>
+                        <th>Avg Growth X</th>
+                        <th>% Achieving 2x+</th>
+                        <th>Effectiveness</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="background: #e8f5e9;">
+                        <td><strong>1</strong></td>
+                        <td><strong>eGumpp + Writing + Vocab</strong></td>
+                        <td>28</td>
+                        <td class="tier-high">5.56x</td>
+                        <td>79%</td>
+                        <td style="color: #2e7d32;">Highest</td>
+                    </tr>
+                    <tr style="background: #e8f5e9;">
+                        <td><strong>2</strong></td>
+                        <td><strong>Writing + Vocabulary</strong></td>
+                        <td>159</td>
+                        <td class="tier-high">3.75x</td>
+                        <td>69%</td>
+                        <td style="color: #2e7d32;">High</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>MobyMax + Writing + Vocab</td>
+                        <td>76</td>
+                        <td>3.36x</td>
+                        <td>68%</td>
+                        <td style="color: #1565c0;">Above Target</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>MobyMax Only</td>
+                        <td>105</td>
+                        <td>3.14x</td>
+                        <td>67%</td>
+                        <td style="color: #1565c0;">Above Target</td>
+                    </tr>
+                    <tr style="background: #fff8e1;">
+                        <td>5</td>
+                        <td>Vocabulary Only</td>
+                        <td>52</td>
+                        <td>2.62x</td>
+                        <td>63%</td>
+                        <td style="color: #f57c00;">At Target</td>
+                    </tr>
+                    <tr style="background: #ffebee;">
+                        <td>6</td>
+                        <td>Writing Only</td>
+                        <td>1</td>
+                        <td class="tier-low">1.25x</td>
+                        <td>0%</td>
+                        <td style="color: #c62828;">Below Target</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div style="background: #e3f2fd; padding: 1rem; border-radius: 5px; margin-top: 1rem;">
+                <h3 style="color: #1565c0; margin-top: 0;">Enrollment Combination Insights</h3>
+                <ul style="margin-bottom: 0;">
+                    <li><strong>Writing + Vocabulary together (3.75x)</strong> is the most effective widely-used combination (n=159)</li>
+                    <li><strong>Adding Writing to MobyMax</strong> doesn't significantly change results (3.36x vs 3.14x), but both exceed target</li>
+                    <li><strong>Vocabulary alone (2.62x)</strong> still meets the 2x target but underperforms combinations</li>
+                    <li><strong>Writing alone (1.25x)</strong> is below target, but sample size is only n=1</li>
+                    <li><strong>eGumpp combinations rank highest</strong> but reflect selection bias (pre-selected high performers)</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Key Takeaways -->
+        <div class="section-card">
+            <h2>Key Takeaways</h2>
             <ul class="findings">
-                <li>Prioritize Writing and Vocabulary enrollment for all students</li>
-                <li>Continue using MobyMax as the foundation for Language skill-building</li>
-                <li>Track student progression from MobyMax to eGumpp as an indicator of mastery</li>
-                <li>Focus on ensuring students complete the full curriculum pathway rather than comparing platforms</li>
+                <li><strong>MobyMax IS working:</strong> 3.14x average growth for non-HS students exceeds the 2x target</li>
+                <li><strong>Writing XP goals matter:</strong> +0.53x higher growth for students meeting Writing XP goals</li>
+                <li><strong>Combination benefits:</strong> Writing + Vocabulary together (3.75x) outperforms either alone</li>
+                <li><strong>Don't compare platforms directly:</strong> eGumpp vs MobyMax is confounded by selection bias</li>
+                <li><strong>Deep dive needed:</strong> 15 students enrolled in Writing and meeting XP goals but not growing - see <a href="deep-dive.html">Deep Dive page</a></li>
             </ul>
         </div>
     </main>

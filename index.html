@@ -21,35 +21,62 @@
             <li><a href="appendix-c.html">W-to-W Drop</a></li>
             <li><a href="appendix-d.html">Campus Analysis</a></li>
             <li><a href="appendix-e.html">Enrollment Impact</a></li>
+            <li><a href="deep-dive.html">Deep Dive</a></li>
+            <li><a href="hs-analysis.html">HS Analysis</a></li>
         </ul>
     </nav>
 
     <main class="container">
-        <!-- Key Metrics -->
-        <div class="metrics-grid">
-            <div class="metric-card">
-                <div class="value">270</div>
-                <div class="label">Students Tested</div>
+        <!-- Methodology Note -->
+        <div class="section-card" style="background: #e3f2fd; border-left: 4px solid #1976d2;">
+            <h2>Methodology Note</h2>
+            <p><strong>Key analyses exclude High School (HS) students</strong> to eliminate grade-level inflation. At higher grade levels, NWEA projected growth norms decrease significantly (often to 1 RIT point), making it easier to achieve high growth multipliers. The non-HS analysis provides a more accurate picture of program effectiveness.</p>
+        </div>
+
+        <!-- Key Metrics - All Students -->
+        <div class="section-card">
+            <h2>All Students Overview</h2>
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="value">270</div>
+                    <div class="label">Students Tested</div>
+                </div>
+                <div class="metric-card">
+                    <div class="value">73%</div>
+                    <div class="label">Coverage</div>
+                </div>
+                <div class="metric-card positive">
+                    <div class="value">3.6x</div>
+                    <div class="label">Avg FTW Growth</div>
+                </div>
+                <div class="metric-card positive">
+                    <div class="value">68%</div>
+                    <div class="label">Achieved 2x+ Growth</div>
+                </div>
             </div>
-            <div class="metric-card">
-                <div class="value">73%</div>
-                <div class="label">Coverage</div>
-            </div>
-            <div class="metric-card positive">
-                <div class="value">3.6x</div>
-                <div class="label">Avg FTW Growth</div>
-            </div>
-            <div class="metric-card positive">
-                <div class="value">68%</div>
-                <div class="label">Achieved 2x+ Growth</div>
-            </div>
-            <div class="metric-card warning">
-                <div class="value">121</div>
-                <div class="label">Below Expected</div>
-            </div>
-            <div class="metric-card negative">
-                <div class="value">41</div>
-                <div class="label">Negative Growth</div>
+        </div>
+
+        <!-- Key Metrics - Non-HS (Primary Analysis) -->
+        <div class="section-card" style="border: 2px solid #4caf50;">
+            <h2>Non-HS Analysis (Primary)</h2>
+            <p style="color: #666; margin-bottom: 1rem;">MS, L2, L1, LL students only - excluding HS grade-level inflation</p>
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="value">221</div>
+                    <div class="label">Students Analyzed</div>
+                </div>
+                <div class="metric-card positive">
+                    <div class="value">3.36x</div>
+                    <div class="label">Avg FTW Growth</div>
+                </div>
+                <div class="metric-card positive">
+                    <div class="value">66%</div>
+                    <div class="label">Achieved 2x+ Growth</div>
+                </div>
+                <div class="metric-card warning">
+                    <div class="value">44%</div>
+                    <div class="label">Below Expected</div>
+                </div>
             </div>
         </div>
 
@@ -58,49 +85,60 @@
             <a href="executive-summary.html" class="nav-card">
                 <h3>Executive Summary</h3>
                 <p>Coverage, headline takeaways, growth metrics, prediction accuracy, and level-by-level diagnostics.</p>
-                <div class="metric">3.6x vs 3.5x predicted</div>
+                <div class="metric">Non-HS: 3.36x growth</div>
+            </a>
+
+            <a href="appendix-e.html" class="nav-card" style="border-left: 4px solid #4caf50;">
+                <h3>MobyMax & Enrollment Impact</h3>
+                <p>MobyMax effectiveness analysis and how Writing, Vocabulary enrollments correlate with MAP performance.</p>
+                <div class="metric">MobyMax: 3.14x | 67% at 2x+</div>
+            </a>
+
+            <a href="deep-dive.html" class="nav-card" style="border-left: 4px solid #f44336;">
+                <h3>Deep Dive Candidates</h3>
+                <p>15 students enrolled in Writing, meeting XP goals, but showing &lt;2x growth. Priority for investigation.</p>
+                <div class="metric">XP Goals Met, Growth Not</div>
             </a>
 
             <a href="appendix-a.html" class="nav-card">
                 <h3>Appendix A: Below Expected Growth</h3>
-                <p>121 students whose actual growth was below predicted, organized by level (HS, MS, L2, L1).</p>
-                <div class="metric">44.8% of tested students</div>
+                <p>Students whose actual growth was below predicted, organized by level.</p>
+                <div class="metric">97 non-HS students</div>
             </a>
 
             <a href="appendix-b.html" class="nav-card">
                 <h3>Appendix B: Recommended Retakes</h3>
-                <p>45 students recommended for MAP retakes based on official retake rules.</p>
+                <p>Students recommended for MAP retakes based on official retake rules.</p>
                 <div class="metric">Rules-based criteria</div>
             </a>
 
             <a href="appendix-c.html" class="nav-card">
                 <h3>Appendix C: Winter-to-Winter Drop</h3>
-                <p>14 students whose Winter 2025-26 RIT score dropped below Winter 2024-25.</p>
-                <div class="metric">15.1% of W-to-W cohort</div>
+                <p>Students whose Winter 2025-26 RIT score dropped below Winter 2024-25.</p>
+                <div class="metric">Year-over-year decline</div>
             </a>
 
             <a href="appendix-d.html" class="nav-card">
                 <h3>Appendix D: Campus Analysis</h3>
-                <p>18 campuses ranked by Language MAP performance with tier classifications.</p>
-                <div class="metric">5 High | 7 Medium | 6 Low</div>
+                <p>Campuses ranked by Language MAP performance with tier classifications.</p>
+                <div class="metric">18 campuses ranked</div>
             </a>
 
-            <a href="appendix-e.html" class="nav-card">
-                <h3>Appendix E: Enrollment Impact</h3>
-                <p>Analysis of how Writing, Vocabulary, eGumpp, and MobyMax correlate with MAP performance.</p>
-                <div class="metric">Vocab +1.68x | Writing +1.65x</div>
+            <a href="hs-analysis.html" class="nav-card" style="border-left: 4px solid #9c27b0;">
+                <h3>High School (HS) Analysis</h3>
+                <p>Separate analysis for HS students with different NWEA growth norms.</p>
+                <div class="metric">49 HS students | 4.63x avg</div>
             </a>
         </div>
 
-        <!-- Quick Findings -->
+        <!-- Key Findings -->
         <div class="section-card">
-            <h2>Headline Takeaways</h2>
+            <h2>Key Findings (Non-HS Analysis)</h2>
             <ul class="findings">
-                <li>68% of tested students achieved 2x+ growth (Fall to Winter)</li>
-                <li>Average Fall-to-Winter growth was 3.6x vs. 3.5x predicted (slightly above)</li>
-                <li>Average Winter-to-Winter growth was 2.5x vs. 2.8x predicted (slightly below)</li>
-                <li>41 students showed negative Fall-to-Winter RIT change - recommend validity checks</li>
-                <li>LL is taking MAP tests for the first time this cycle - no data available</li>
+                <li><strong>MobyMax IS Effective:</strong> MobyMax-only students achieve 3.14x average growth (above 2x target), with 67% reaching 2x+</li>
+                <li><strong>Writing XP Correlation:</strong> Students meeting Writing XP goals show +0.53x higher growth (4.03x vs 3.50x)</li>
+                <li><strong>Deep Dive Priority:</strong> 15 students enrolled in Writing are meeting XP goals but not showing expected MAP growth - require investigation</li>
+                <li><strong>Selection Bias Note:</strong> eGumpp vs MobyMax comparisons are confounded - eGumpp students already mastered G6 MobyMax</li>
             </ul>
         </div>
 
@@ -118,8 +156,8 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>HS</td>
+                    <tr style="background: #ffebee;">
+                        <td>HS (excluded from key analyses)</td>
                         <td>60</td>
                         <td>49</td>
                         <td>82%</td>

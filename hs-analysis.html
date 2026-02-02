@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High School Analysis | Language MAP Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>High School (HS) Analysis</h1>
+        <p>Separate Analysis for HS Students</p>
+    </header>
+
+    <nav class="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="executive-summary.html">Executive Summary</a></li>
+            <li><a href="appendix-a.html">Below Expected</a></li>
+            <li><a href="appendix-b.html">Retakes</a></li>
+            <li><a href="appendix-c.html">W-to-W Drop</a></li>
+            <li><a href="appendix-d.html">Campus Analysis</a></li>
+            <li><a href="appendix-e.html">Enrollment Impact</a></li>
+            <li><a href="deep-dive.html">Deep Dive</a></li>
+            <li><a href="hs-analysis.html" class="active">HS Analysis</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <div class="section-card" style="background: #fff3e0; border-left: 4px solid #ff9800;">
+            <h2>Important Note on HS Data</h2>
+            <p>At the High School level, NWEA projected growth norms are typically very low (often 1 RIT point or less). This means small actual RIT changes can result in very high or very low growth multipliers. <strong>HS data should be interpreted with this context in mind.</strong></p>
+        </div>
+
+        <!-- HS Key Metrics -->
+        <div class="section-card">
+            <h2>HS Executive Summary</h2>
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="value">49</div>
+                    <div class="label">HS Students Tested</div>
+                </div>
+                <div class="metric-card positive">
+                    <div class="value">4.63x</div>
+                    <div class="label">Avg Growth X</div>
+                </div>
+                <div class="metric-card positive">
+                    <div class="value">80%</div>
+                    <div class="label">Achieved 2x+ Growth</div>
+                </div>
+                <div class="metric-card warning">
+                    <div class="value">49%</div>
+                    <div class="label">Below Expected</div>
+                </div>
+            </div>
+            <p style="margin-top: 1rem; color: #666; font-style: italic;">Note: The high average growth (4.63x) reflects the low NWEA projected norms at HS level, not necessarily better performance.</p>
+        </div>
+
+        <!-- HS Platform Analysis -->
+        <div class="section-card">
+            <h2>HS Platform Analysis</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Platform</th>
+                        <th>Students (n)</th>
+                        <th>Avg Growth X</th>
+                        <th>% Achieving 2x+</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>MobyMax Only</td>
+                        <td>4</td>
+                        <td>8.38x</td>
+                        <td>100%</td>
+                    </tr>
+                    <tr>
+                        <td>eGumpp</td>
+                        <td>30</td>
+                        <td>6.22x</td>
+                        <td>83%</td>
+                    </tr>
+                    <tr style="background: #f5f5f5;">
+                        <td>Overall HS</td>
+                        <td>49</td>
+                        <td>4.63x</td>
+                        <td>80%</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p style="margin-top: 1rem; color: #666;">Note: Small sample sizes at HS level (especially MobyMax Only n=4) limit statistical significance.</p>
+        </div>
+
+        <!-- HS Writing XP Correlation -->
+        <div class="section-card">
+            <h2>HS Writing XP Goal Correlation</h2>
+
+            <h3>XP Goal Status vs MAP Growth (HS)</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Status</th>
+                        <th>Students (n)</th>
+                        <th>Avg Growth X</th>
+                        <th>% Achieving 2x+</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="background: #e8f5e9;">
+                        <td><strong>Meeting XP Goals</strong></td>
+                        <td>37</td>
+                        <td class="tier-high">5.78x</td>
+                        <td>84%</td>
+                    </tr>
+                    <tr>
+                        <td>Not Meeting XP Goals</td>
+                        <td>2</td>
+                        <td>8.00x</td>
+                        <td>100%</td>
+                    </tr>
+                    <tr>
+                        <td>No Writing XP Data</td>
+                        <td>10</td>
+                        <td class="tier-low">0.55x</td>
+                        <td>50%</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p style="font-size: 1.1rem; margin-top: 1rem;"><strong>Difference (Meeting - Not Meeting): -2.22x</strong></p>
+
+            <div style="background: #fff3e0; padding: 1rem; border-radius: 5px; margin-top: 1rem;">
+                <h3 style="color: #e65100; margin-top: 0;">HS XP Correlation: Limited Conclusions</h3>
+                <ul style="margin-bottom: 0;">
+                    <li><strong>Sample size issue:</strong> Only 2 HS students not meeting XP goals makes direct comparison statistically unreliable</li>
+                    <li><strong>No Writing XP Data concern:</strong> 10 students with no XP data show very low growth (0.55x avg) - investigate why they lack data</li>
+                    <li><strong>High XP but negative growth:</strong> 6 deep dive candidates are meeting XP goals but showing <2x growth (see below)</li>
+                    <li><strong>Contrast with Non-HS:</strong> Non-HS students show +0.53x higher growth when meeting XP goals; HS pattern is reversed but unreliable due to n=2</li>
+                </ul>
+            </div>
+
+            <h3 style="margin-top: 1.5rem;">HS Students with No Writing XP Data (10 students)</h3>
+            <p style="color: #666;">These students have no Writing XP recorded but were tested on MAP. Average growth is only 0.55x - significantly below the 2x target.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Student</th>
+                        <th>Campus</th>
+                        <th>Growth X</th>
+                        <th>Notes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Cade Bustamante</td><td>Strata</td><td class="tier-low">-42.0x</td><td>Retake recommended</td></tr>
+                    <tr><td>Cruce Saunders IV</td><td>Alpha High School</td><td class="tier-low">-4.0x</td><td>Retake recommended</td></tr>
+                    <tr><td>Ella Gremont</td><td>Alpha High School</td><td class="tier-low">-3.0x</td><td>Deep dive candidate</td></tr>
+                    <tr><td>Grey Walker</td><td>Alpha High School</td><td>0.0x</td><td>No growth</td></tr>
+                    <tr><td>Jack Ely</td><td>Strata</td><td>2.0x</td><td>Met 2x target</td></tr>
+                    <tr><td>Justin Rodriguez</td><td>Alpha School Miami</td><td class="tier-high">26.0x</td><td>Retake recommended (unusual)</td></tr>
+                </tbody>
+            </table>
+            <p style="margin-top: 0.5rem; color: #666; font-style: italic;">Note: Only 6 of 10 no-XP students shown; remaining 4 had normal growth patterns.</p>
+        </div>
+
+        <!-- HS Below Expected -->
+        <div class="section-card">
+            <h2>HS Students Below Expected Growth (24 students)</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Student</th>
+                        <th>Campus</th>
+                        <th>Fall RIT</th>
+                        <th>Winter RIT</th>
+                        <th>Actual X</th>
+                        <th>Predicted X</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Cade Bustamante</td><td>Strata</td><td>261</td><td>219</td><td class="tier-low">-42.0x</td><td>0.0x</td></tr>
+                    <tr><td>Gus Castillo</td><td>Alpha High School</td><td>239</td><td>228</td><td class="tier-low">-11.0x</td><td>4.0x</td></tr>
+                    <tr><td>Sara Beth Way</td><td>Alpha High School</td><td>255</td><td>247</td><td class="tier-low">-8.0x</td><td>0.0x</td></tr>
+                    <tr><td>Aheli Shah</td><td>Alpha High School</td><td>241</td><td>235</td><td class="tier-low">-6.0x</td><td>4.0x</td></tr>
+                    <tr><td>Sydney Barba</td><td>Alpha School Miami</td><td>239</td><td>234</td><td class="tier-low">-5.0x</td><td>4.0x</td></tr>
+                    <tr><td>Cruce Saunders IV</td><td>Alpha High School</td><td>256</td><td>252</td><td class="tier-low">-4.0x</td><td>0.0x</td></tr>
+                    <tr><td>Ella Gremont</td><td>Alpha High School</td><td>259</td><td>256</td><td class="tier-low">-3.0x</td><td>0.0x</td></tr>
+                    <tr><td>Grey Walker</td><td>Alpha High School</td><td>238</td><td>238</td><td>0.0x</td><td>4.0x</td></tr>
+                    <tr><td>Paty Margain-Junco</td><td>Alpha High School</td><td>245</td><td>246</td><td>1.0x</td><td>4.0x</td></tr>
+                    <tr><td>Jaiden Bhakta</td><td>GT School</td><td>251</td><td>252</td><td>1.0x</td><td>4.0x</td></tr>
+                    <tr><td>Jack Ely</td><td>Strata</td><td>221</td><td>223</td><td>2.0x</td><td>15.0x</td></tr>
+                    <tr><td>Emma Cotner</td><td>Alpha High School</td><td>248</td><td>251</td><td>3.0x</td><td>4.0x</td></tr>
+                    <tr><td>Ella Dietz</td><td>Alpha High School</td><td>233</td><td>236</td><td>3.0x</td><td>15.0x</td></tr>
+                    <tr><td>Zayen Szpitalak</td><td>Alpha High School</td><td>229</td><td>233</td><td>4.0x</td><td>15.0x</td></tr>
+                    <tr><td>Erika Rigby</td><td>Alpha High School</td><td>229</td><td>233</td><td>4.0x</td><td>15.0x</td></tr>
+                    <tr><td>Malaika Negrete</td><td>Alpha High School</td><td>221</td><td>225</td><td>4.0x</td><td>15.0x</td></tr>
+                    <tr><td>Benny Valles</td><td>Alpha High School</td><td>232</td><td>238</td><td>6.0x</td><td>15.0x</td></tr>
+                    <tr><td>Aoife Huey</td><td>Alpha High School</td><td>224</td><td>230</td><td>6.0x</td><td>15.0x</td></tr>
+                    <tr><td>Ju Orloff</td><td>Alpha School Miami</td><td>233</td><td>240</td><td>7.0x</td><td>15.0x</td></tr>
+                    <tr><td>Hinano Tamura</td><td>Alpha School Miami</td><td>216</td><td>224</td><td>8.0x</td><td>15.0x</td></tr>
+                    <tr><td>Sloka Vudumu</td><td>Alpha High School</td><td>233</td><td>242</td><td>9.0x</td><td>15.0x</td></tr>
+                    <tr><td>Kavin Lingham</td><td>Alpha High School</td><td>232</td><td>242</td><td>10.0x</td><td>15.0x</td></tr>
+                    <tr><td>Ross Margraves</td><td>Alpha High School</td><td>212</td><td>224</td><td>12.0x</td><td>15.0x</td></tr>
+                    <tr><td>Evan Klein</td><td>Alpha High School</td><td>229</td><td>242</td><td>13.0x</td><td>15.0x</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- HS Recommended Retakes -->
+        <div class="section-card">
+            <h2>HS Recommended MAP Retakes (7 students)</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Student</th>
+                        <th>Campus</th>
+                        <th>Fall RIT</th>
+                        <th>Winter RIT</th>
+                        <th>Change</th>
+                        <th>Reason</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Cade Bustamante</td><td>Strata</td><td>261</td><td>219</td><td class="tier-low">-42</td><td>Dropped 42 pts</td></tr>
+                    <tr><td>Gus Castillo</td><td>Alpha High School</td><td>239</td><td>228</td><td class="tier-low">-11</td><td>Dropped 11 pts</td></tr>
+                    <tr><td>Sara Beth Way</td><td>Alpha High School</td><td>255</td><td>247</td><td class="tier-low">-8</td><td>Dropped 8 pts</td></tr>
+                    <tr><td>Aheli Shah</td><td>Alpha High School</td><td>241</td><td>235</td><td class="tier-low">-6</td><td>Dropped 6 pts</td></tr>
+                    <tr><td>Sydney Barba</td><td>Alpha School Miami</td><td>239</td><td>234</td><td class="tier-low">-5</td><td>Dropped 5 pts</td></tr>
+                    <tr><td>Cruce Saunders IV</td><td>Alpha High School</td><td>256</td><td>252</td><td class="tier-low">-4</td><td>Dropped 4 pts</td></tr>
+                    <tr><td>Justin Rodriguez</td><td>Alpha School Miami</td><td>220</td><td>246</td><td class="tier-medium">+26</td><td>Unusual +26 pts</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- HS Deep Dive Candidates -->
+        <div class="section-card">
+            <h2>HS Deep Dive Candidates (6 students)</h2>
+            <p>HS students meeting Writing XP goals but showing &lt;2x growth:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Student</th>
+                        <th>Campus</th>
+                        <th>Growth X</th>
+                        <th>Writing XP</th>
+                        <th>Concerns</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Gus Castillo</td><td>Alpha High School</td><td class="tier-low">-11.0x</td><td>3,017</td><td>Negative, High XP</td></tr>
+                    <tr><td>Sara Beth Way</td><td>Alpha High School</td><td class="tier-low">-8.0x</td><td>1,680</td><td>Negative</td></tr>
+                    <tr><td>Aheli Shah</td><td>Alpha High School</td><td class="tier-low">-6.0x</td><td>3,468</td><td>Negative, High XP</td></tr>
+                    <tr><td>Sydney Barba</td><td>Alpha School Miami</td><td class="tier-low">-5.0x</td><td>4,989</td><td>Negative, High XP</td></tr>
+                    <tr><td>Ella Gremont</td><td>Alpha High School</td><td class="tier-low">-3.0x</td><td>690</td><td>Negative</td></tr>
+                    <tr><td>Jaiden Bhakta</td><td>GT School</td><td>1.0x</td><td>1,864</td><td>-</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- HS W-to-W Drop -->
+        <div class="section-card">
+            <h2>HS Winter-to-Winter Drop (3 students)</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Student</th>
+                        <th>Campus</th>
+                        <th>Winter 24-25</th>
+                        <th>Winter 25-26</th>
+                        <th>Change</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Ross Margraves</td><td>Alpha High School</td><td>231</td><td>224</td><td class="tier-low">-7</td></tr>
+                    <tr><td>Sydney Barba</td><td>Alpha School Miami</td><td>236</td><td>234</td><td class="tier-low">-2</td></tr>
+                    <tr><td>Gus Castillo</td><td>Alpha High School</td><td>229</td><td>228</td><td class="tier-low">-1</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>Language MAP Results Analysis | Winter 2026 | Report Date: January 30, 2026</p>
+    </footer>
+</body>
+</html>
