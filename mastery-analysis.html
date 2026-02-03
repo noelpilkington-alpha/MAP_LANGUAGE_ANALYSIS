@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mastery Analysis | Language MAP Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Grade Level Mastery Analysis</h1>
+        <p>Does Mastering Grade Levels Correlate with Language MAP Growth?</p>
+    </header>
+
+    <nav class="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="executive-summary.html">Executive Summary</a></li>
+            <li><a href="appendix-a.html">Below Expected</a></li>
+            <li><a href="appendix-b.html">Retakes</a></li>
+            <li><a href="appendix-c.html">W-to-W Drop</a></li>
+            <li><a href="appendix-d.html">Campus Analysis</a></li>
+            <li><a href="appendix-e.html">Enrollment Impact</a></li>
+            <li><a href="mastery-analysis.html" class="active">Mastery Analysis</a></li>
+            <li><a href="deep-dive.html">Deep Dive</a></li>
+            <li><a href="writing-deep-dive.html">Writing Deep Dive</a></li>
+            <li><a href="hs-analysis.html">HS Analysis</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <div class="section-card" style="background: #e3f2fd; border-left: 4px solid #1976d2;">
+            <h2>Key Questions Addressed</h2>
+            <ol style="margin-left: 1.5rem; line-height: 2;">
+                <li>Is there a correlation between <strong>mastering grade levels</strong> in Writing and Language growth?</li>
+                <li>Do you just have to <strong>be in AlphaWrite</strong> or do you have to <strong>master grade levels</strong> to get Language growth?</li>
+                <li>Same for <strong>eGumpp</strong></li>
+                <li>Same for <strong>MobyMax</strong></li>
+            </ol>
+        </div>
+
+        <!-- Key Findings Summary -->
+        <div class="section-card" style="border: 2px solid #4caf50;">
+            <h2>Key Findings Summary</h2>
+            <div class="metrics-grid">
+                <div class="metric-card positive">
+                    <div class="value">+1.33x</div>
+                    <div class="label">Writing Mastery Boost</div>
+                    <small>Passed tests vs None (CORRECTED)</small>
+                </div>
+                <div class="metric-card positive">
+                    <div class="value">+0.89x</div>
+                    <div class="label">MobyMax Mastery Boost</div>
+                    <small>Mastered 1+ grade vs 0</small>
+                </div>
+                <div class="metric-card positive">
+                    <div class="value">42</div>
+                    <div class="label">Students Passed Tests</div>
+                    <small>Writing tests passed</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Q1: Writing/AlphaWrite - CORRECTED using passed tests -->
+        <div class="section-card" style="border: 2px solid #4caf50;">
+            <h2>1. Writing/AlphaWrite: Does Mastery Matter? (CORRECTED)</h2>
+
+            <div style="background: #e3f2fd; padding: 1rem; border-radius: 5px; margin-bottom: 1rem;">
+                <p style="margin: 0;"><strong>Data Correction:</strong> This analysis now uses <strong>Alpha Standardized Writing Tests Graded</strong> as the source of truth for Writing mastery, rather than the Progress Tracker which showed only 3 students mastered grades. Cross-referencing revealed 42 Non-HS students actually passed Writing tests.</p>
+            </div>
+
+            <h3>Passed Writing Tests vs Not Passed (Non-HS)</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Status</th>
+                        <th>Students (n)</th>
+                        <th>Avg Growth X</th>
+                        <th>% at 2x+</th>
+                        <th>Difference</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="background: #e8f5e9;">
+                        <td><strong>Passed 1+ Writing Test</strong></td>
+                        <td>42</td>
+                        <td class="tier-high">3.16x</td>
+                        <td>71%</td>
+                        <td rowspan="2" style="vertical-align: middle; font-weight: bold; color: #2e7d32;">+1.33x</td>
+                    </tr>
+                    <tr>
+                        <td>No Passed Tests</td>
+                        <td>39</td>
+                        <td>1.83x</td>
+                        <td>41%</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Growth by Highest Writing Grade Passed</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Highest Grade Passed</th>
+                        <th>Students (n)</th>
+                        <th>Avg Growth X</th>
+                        <th>% at 2x+</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>None</td>
+                        <td>39</td>
+                        <td>1.83x</td>
+                        <td>41%</td>
+                    </tr>
+                    <tr style="background: #e8f5e9;">
+                        <td>G3</td>
+                        <td>13</td>
+                        <td>2.96x</td>
+                        <td>62%</td>
+                    </tr>
+                    <tr style="background: #e8f5e9;">
+                        <td>G4</td>
+                        <td>10</td>
+                        <td>2.63x</td>
+                        <td>70%</td>
+                    </tr>
+                    <tr style="background: #e8f5e9;">
+                        <td>G5</td>
+                        <td>9</td>
+                        <td class="tier-high">4.33x</td>
+                        <td>89%</td>
+                    </tr>
+                    <tr style="background: #e8f5e9;">
+                        <td>G6</td>
+                        <td>6</td>
+                        <td>2.33x</td>
+                        <td>67%</td>
+                    </tr>
+                    <tr>
+                        <td>G7</td>
+                        <td>1</td>
+                        <td>1.50x</td>
+                        <td>0%</td>
+                    </tr>
+                    <tr style="background: #e8f5e9;">
+                        <td>G8</td>
+                        <td>3</td>
+                        <td class="tier-high">4.50x</td>
+                        <td>100%</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Growth by Number of Writing Tests Passed</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tests Passed</th>
+                        <th>Students (n)</th>
+                        <th>Avg Growth X</th>
+                        <th>% at 2x+</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>0 tests</td>
+                        <td>39</td>
+                        <td>1.83x</td>
+                        <td>41%</td>
+                    </tr>
+                    <tr style="background: #e8f5e9;">
+                        <td>1 test</td>
+                        <td>13</td>
+                        <td>2.96x</td>
+                        <td>62%</td>
+                    </tr>
+                    <tr style="background: #e8f5e9;">
+                        <td>2 tests</td>
+                        <td>10</td>
+                        <td>2.63x</td>
+                        <td>70%</td>
+                    </tr>
+                    <tr style="background: #e8f5e9;">
+                        <td>3 tests</td>
+                        <td>9</td>
+                        <td class="tier-high">4.33x</td>
+                        <td>89%</td>
+                    </tr>
+                    <tr style="background: #e8f5e9;">
+                        <td>4+ tests</td>
+                        <td>10</td>
+                        <td>3.07x</td>
+                        <td>70%</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>By Level: Passed vs Not Passed</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Level</th>
+                        <th>Passed (n)</th>
+                        <th>Passed Avg</th>
+                        <th>Not Passed (n)</th>
+                        <th>Not Passed Avg</th>
+                        <th>Difference</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>MS</td>
+                        <td>33</td>
+                        <td class="tier-high">3.21x</td>
+                        <td>12</td>
+                        <td>2.42x</td>
+                        <td style="color: #2e7d32;">+0.79x</td>
+                    </tr>
+                    <tr>
+                        <td>L2</td>
+                        <td>9</td>
+                        <td class="tier-high">3.00x</td>
+                        <td>24</td>
+                        <td>1.66x</td>
+                        <td style="color: #2e7d32;">+1.34x</td>
+                    </tr>
+                    <tr>
+                        <td>L1</td>
+                        <td>0</td>
+                        <td>-</td>
+                        <td>3</td>
+                        <td>0.81x</td>
+                        <td>-</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div style="background: #e8f5e9; padding: 1rem; border-radius: 5px; margin-top: 1rem;">
+                <h3 style="color: #2e7d32; margin-top: 0;">Conclusion: YES, Writing Mastery Matters (+1.33x)</h3>
+                <p style="margin-bottom: 0;">Students who passed Writing tests show <strong>significantly higher Language MAP growth</strong> (+1.33x on average). This is an even stronger correlation than MobyMax mastery (+0.89x). The effect is consistent across MS (+0.79x) and L2 (+1.34x) levels.</p>
+            </div>
+        </div>
+
+        <!-- Q2: MobyMax/Language -->
+        <div class="section-card" style="border: 2px solid #2196f3;">
+            <h2>2. MobyMax (Language): Does Mastery Matter?</h2>
+
+            <h3>Mastered Grades vs No Mastery (Non-HS)</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Mastery Status</th>
+                        <th>Students (n)</th>
+                        <th>Avg Growth X</th>
+                        <th>% at 2x+</th>
+                        <th>Difference</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="background: #e8f5e9;">
+                        <td><strong>Mastered 1+ Grade</strong></td>
+                        <td>34</td>
+                        <td class="tier-high">2.95x</td>
+                        <td>59%</td>
+                        <td rowspan="2" style="vertical-align: middle; font-weight: bold; color: #2e7d32;">+0.89x</td>
+                    </tr>
+                    <tr>
+                        <td>Mastered 0 Grades</td>
+                        <td>49</td>
+                        <td>2.06x</td>
+                        <td>53%</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Growth by Number of Grades Mastered</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Grades Mastered</th>
+                        <th>Students (n)</th>
+                        <th>Avg Growth X</th>
+                        <th>% at 2x+</th>
+                        <th>Trend</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>0 grades</td>
+                        <td>49</td>
+                        <td>2.06x</td>
+                        <td>53%</td>
+                        <td>Baseline</td>
+                    </tr>
+                    <tr style="background: #e8f5e9;">
+                        <td>1 grade</td>
+                        <td>22</td>
+                        <td class="tier-high">2.84x</td>
+                        <td>59%</td>
+                        <td style="color: #2e7d32;">+0.78x</td>
+                    </tr>
+                    <tr style="background: #e8f5e9;">
+                        <td>2 grades</td>
+                        <td>6</td>
+                        <td class="tier-high">3.39x</td>
+                        <td>50%</td>
+                        <td style="color: #2e7d32;">+1.33x</td>
+                    </tr>
+                    <tr style="background: #e8f5e9;">
+                        <td>3 grades</td>
+                        <td>5</td>
+                        <td class="tier-high">3.33x</td>
+                        <td>80%</td>
+                        <td style="color: #2e7d32;">+1.27x</td>
+                    </tr>
+                    <tr style="background: #ffebee;">
+                        <td>4 grades</td>
+                        <td>1</td>
+                        <td class="tier-low">0.77x</td>
+                        <td>0%</td>
+                        <td style="color: #c62828;">n=1 outlier</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div style="background: #e8f5e9; padding: 1rem; border-radius: 5px; margin-top: 1rem;">
+                <h3 style="color: #2e7d32; margin-top: 0;">Conclusion: YES, Mastering Grades in MobyMax Matters</h3>
+                <p style="margin-bottom: 0;">Students who master grade levels in MobyMax show <strong>significantly higher Language MAP growth</strong> (+0.89x on average). There is a clear positive trend: more grades mastered correlates with higher growth up to 3 grades.</p>
+            </div>
+        </div>
+
+        <!-- Q3: eGumpp -->
+        <div class="section-card">
+            <h2>3. eGumpp: Does Additional Mastery Help?</h2>
+
+            <div style="background: #fff3cd; padding: 1rem; border-radius: 5px; margin-bottom: 1rem;">
+                <p style="margin: 0;"><strong>Important Context:</strong> All eGumpp students have already mastered Grade 6 Language in MobyMax. They are pre-selected high performers.</p>
+            </div>
+
+            <h3>eGumpp Students: Additional Mastery Analysis (n=16)</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Mastery Status</th>
+                        <th>Students (n)</th>
+                        <th>Avg Growth X</th>
+                        <th>% at 2x+</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mastered 0 additional grades</td>
+                        <td>3</td>
+                        <td class="tier-high">4.00x</td>
+                        <td>100%</td>
+                    </tr>
+                    <tr>
+                        <td>Mastered 1 grade</td>
+                        <td>10</td>
+                        <td>3.35x</td>
+                        <td>70%</td>
+                    </tr>
+                    <tr>
+                        <td>Mastered 2 grades</td>
+                        <td>2</td>
+                        <td class="tier-high">6.75x</td>
+                        <td>100%</td>
+                    </tr>
+                    <tr>
+                        <td>Mastered 3 grades</td>
+                        <td>1</td>
+                        <td>3.50x</td>
+                        <td>100%</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div style="background: #e3f2fd; padding: 1rem; border-radius: 5px; margin-top: 1rem;">
+                <h3 style="color: #1565c0; margin-top: 0;">Conclusion: eGumpp Students Perform Well Regardless</h3>
+                <p style="margin-bottom: 0;">eGumpp students show <strong>high growth across all mastery levels</strong> (3.35x - 6.75x). The small sample size (n=16) and pre-selection bias make it difficult to determine if additional mastery provides extra benefit. These students were already high performers before entering eGumpp.</p>
+            </div>
+        </div>
+
+        <!-- Q4: MobyMax-Only -->
+        <div class="section-card">
+            <h2>4. MobyMax-Only Students: A Nuanced Picture</h2>
+
+            <h3>Mastery Analysis for MobyMax-Only Students (n=35)</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Mastery Status</th>
+                        <th>Students (n)</th>
+                        <th>Avg Growth X</th>
+                        <th>% at 2x+</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="background: #e8f5e9;">
+                        <td>Mastered 0 grades</td>
+                        <td>21</td>
+                        <td class="tier-high">2.47x</td>
+                        <td>62%</td>
+                    </tr>
+                    <tr>
+                        <td>Mastered 1 grade</td>
+                        <td>6</td>
+                        <td>2.05x</td>
+                        <td>50%</td>
+                    </tr>
+                    <tr>
+                        <td>Mastered 2 grades</td>
+                        <td>4</td>
+                        <td>1.71x</td>
+                        <td>25%</td>
+                    </tr>
+                    <tr>
+                        <td>Mastered 3 grades</td>
+                        <td>3</td>
+                        <td class="tier-high">3.06x</td>
+                        <td>67%</td>
+                    </tr>
+                    <tr>
+                        <td>Mastered 4 grades</td>
+                        <td>1</td>
+                        <td class="tier-low">0.77x</td>
+                        <td>0%</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div style="background: #fff3cd; padding: 1rem; border-radius: 5px; margin-top: 1rem;">
+                <h3 style="color: #856404; margin-top: 0;">Counterintuitive Finding</h3>
+                <p>For MobyMax-only students, those who mastered <strong>0 grades show higher growth (2.47x)</strong> than those who mastered 1-2 grades. Possible explanations:</p>
+                <ul style="margin-bottom: 0;">
+                    <li><strong>Active engagement:</strong> Students still working through content may be more engaged with the material</li>
+                    <li><strong>Pacing:</strong> Students who quickly mastered grades may have moved too fast without deep learning</li>
+                    <li><strong>Ceiling effect:</strong> High performers who mastered quickly may have less room to grow</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Final Summary -->
+        <div class="section-card" style="background: #f5f5f5; border: 2px solid #1e3a5f;">
+            <h2>Answers to Head of Academics' Questions</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 30%;">Question</th>
+                        <th style="width: 70%;">Answer</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="background: #e8f5e9;">
+                        <td><strong>Writing/AlphaWrite: Does mastery matter?</strong></td>
+                        <td><strong>YES, mastery matters (+1.33x).</strong> (CORRECTED using passed test data) Students who passed Writing tests show 3.16x growth vs 1.83x for non-passers. Stronger effect than MobyMax mastery.</td>
+                    </tr>
+                    <tr style="background: #e8f5e9;">
+                        <td><strong>MobyMax: Does mastering grade levels matter?</strong></td>
+                        <td><strong>YES, mastery matters (+0.89x).</strong> Students who master 1+ grade levels show significantly higher growth (2.95x vs 2.06x). Clear positive correlation with more grades mastered.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>eGumpp: Does mastery matter?</strong></td>
+                        <td><strong>All eGumpp students perform well (3.35x-6.75x).</strong> Small sample and pre-selection bias make it hard to isolate mastery impact. These students already mastered G6 MobyMax before entering eGumpp.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>MobyMax-only: Does mastery matter?</strong></td>
+                        <td><strong>Mixed results.</strong> Students with 0 grades mastered actually show higher growth (2.47x) than 1-2 grades. Suggests mastery speed alone doesn't guarantee growth - engagement and depth may matter more.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Recommendations -->
+        <div class="section-card">
+            <h2>Recommendations</h2>
+            <ul class="findings">
+                <li><strong>Prioritize Writing test passage:</strong> Writing mastery shows the strongest correlation with MAP growth (+1.33x) - ensure students are progressing through and passing Writing tests</li>
+                <li><strong>Encourage MobyMax mastery:</strong> There's a clear +0.89x growth benefit for students who master grade levels</li>
+                <li><strong>Focus on L2 Writing:</strong> L2 students show the largest gap (+1.34x) between test-passers and non-passers - prioritize Writing progression for this group</li>
+                <li><strong>Quality over speed:</strong> MobyMax-only data suggests rushing through mastery may not translate to MAP growth - focus on deep learning</li>
+                <li><strong>Fix data tracking:</strong> The Progress Tracker "Effective Grades Mastered This Year" field is not reflecting passed tests - investigate and correct</li>
+                <li><strong>eGumpp selection is working:</strong> Pre-selected students continue to perform well</li>
+            </ul>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>Language MAP Results Analysis | Winter 2026 | Report Date: January 30, 2026</p>
+    </footer>
+</body>
+</html>
